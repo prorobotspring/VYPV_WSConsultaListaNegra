@@ -1,0 +1,4 @@
+datasource=ds/VYPV_FRAUDE
+codContrato=OCRM-00080
+tiposIdQuitarPrefijo = V,E
+

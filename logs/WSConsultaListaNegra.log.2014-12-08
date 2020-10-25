@@ -1,0 +1,594 @@
+[2014dic08 10:35:17,382][INFO ][930181397153286425--760973ee.14981c4171b.-3e8][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 10:35:17,403][ERROR][930181397153286425--760973ee.14981c4171b.-3e8][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 10:35:17,407][INFO ][930181397153286425--760973ee.14981c4171b.-3e8][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 10:35:17,412][INFO ][930181397153286425--760973ee.14981c4171b.-3e8][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 10:35:17,413][DEBUG][930181397153286425--760973ee.14981c4171b.-3e8][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 12:09:47,946][INFO ][930181397153286425--760973ee.14981c4171b.-8f][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 12:09:47,961][ERROR][930181397153286425--760973ee.14981c4171b.-8f][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 12:09:47,966][INFO ][930181397153286425--760973ee.14981c4171b.-8f][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 12:09:47,970][INFO ][930181397153286425--760973ee.14981c4171b.-8f][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 12:09:47,972][DEBUG][930181397153286425--760973ee.14981c4171b.-8f][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 12:57:12,822][INFO ][930181397153286425--760973ee.14981c4171b.221][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 12:57:12,836][ERROR][930181397153286425--760973ee.14981c4171b.221][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 12:57:12,840][INFO ][930181397153286425--760973ee.14981c4171b.221][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 12:57:12,845][INFO ][930181397153286425--760973ee.14981c4171b.221][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 12:57:12,846][DEBUG][930181397153286425--760973ee.14981c4171b.221][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 13:07:46,872][INFO ][930181397153286425--760973ee.14981c4171b.4de][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 13:07:46,885][ERROR][930181397153286425--760973ee.14981c4171b.4de][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 13:07:46,890][INFO ][930181397153286425--760973ee.14981c4171b.4de][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 13:07:46,894][INFO ][930181397153286425--760973ee.14981c4171b.4de][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 13:07:46,896][DEBUG][930181397153286425--760973ee.14981c4171b.4de][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 13:28:20,402][INFO ][930181397153286425--760973ee.14981c4171b.7bc][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 13:28:20,415][ERROR][930181397153286425--760973ee.14981c4171b.7bc][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 13:28:20,419][INFO ][930181397153286425--760973ee.14981c4171b.7bc][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 13:28:20,423][INFO ][930181397153286425--760973ee.14981c4171b.7bc][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 13:28:20,425][DEBUG][930181397153286425--760973ee.14981c4171b.7bc][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 13:53:00,682][INFO ][930181397153286425--760973ee.14981c4171b.a10][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 13:53:00,694][ERROR][930181397153286425--760973ee.14981c4171b.a10][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 13:53:00,699][INFO ][930181397153286425--760973ee.14981c4171b.a10][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 13:53:00,703][INFO ][930181397153286425--760973ee.14981c4171b.a10][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 13:53:00,705][DEBUG][930181397153286425--760973ee.14981c4171b.a10][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 14:10:06,701][INFO ][930181397153286425--760973ee.14981c4171b.bda][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 14:10:06,714][ERROR][930181397153286425--760973ee.14981c4171b.bda][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 14:10:06,718][INFO ][930181397153286425--760973ee.14981c4171b.bda][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 14:10:06,722][INFO ][930181397153286425--760973ee.14981c4171b.bda][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 14:10:06,723][DEBUG][930181397153286425--760973ee.14981c4171b.bda][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 14:35:06,177][INFO ][930181397153286425--760973ee.14981c4171b.e78][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 14:35:06,190][ERROR][930181397153286425--760973ee.14981c4171b.e78][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 14:35:06,195][INFO ][930181397153286425--760973ee.14981c4171b.e78][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 14:35:06,198][INFO ][930181397153286425--760973ee.14981c4171b.e78][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 14:35:06,200][DEBUG][930181397153286425--760973ee.14981c4171b.e78][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 15:52:41,813][INFO ][930181397153286425--760973ee.14981c4171b.1137][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 15:52:41,827][ERROR][930181397153286425--760973ee.14981c4171b.1137][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 15:52:41,831][INFO ][930181397153286425--760973ee.14981c4171b.1137][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 15:52:41,836][INFO ][930181397153286425--760973ee.14981c4171b.1137][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 15:52:41,838][DEBUG][930181397153286425--760973ee.14981c4171b.1137][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 16:04:17,272][INFO ][930181397153286425--760973ee.14981c4171b.141c][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 16:04:17,284][ERROR][930181397153286425--760973ee.14981c4171b.141c][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 16:04:17,289][INFO ][930181397153286425--760973ee.14981c4171b.141c][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 16:04:17,293][INFO ][930181397153286425--760973ee.14981c4171b.141c][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 16:04:17,295][DEBUG][930181397153286425--760973ee.14981c4171b.141c][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
+[2014dic08 16:54:13,039][INFO ][930181397153286425--760973ee.14981c4171b.1752][consultarCliente ConsultaListaNegra.java:32][Inicio invocacion de WSConsultaListaNegra. Channel:SIEBEL8 User:EJEACT1]
+[2014dic08 16:54:13,053][ERROR][930181397153286425--760973ee.14981c4171b.1752][ProcesarSP ProcesarSp.java:47][Error al ejecutar el Stored Procedure en digitel.ProcesarSp: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+]
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'VYPV_FRAUDE.SP_WSLISTANEGRASIR' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:125)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:305)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:272)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:626)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:181)
+	at oracle.jdbc.driver.T4CCallableStatement.execute_for_rows(T4CCallableStatement.java:870)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1081)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:2905)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:2996)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4120)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:102)
+	at digitel.ProcesarSp.ProcesarSP(ProcesarSp.java:36)
+	at digitel.ConsultaListaNegra.consultarCliente(ConsultaListaNegra.java:71)
+	at digitel.bindings.WSConsultaListaNegraImpl.consultarCliente(WSConsultaListaNegraImpl.java:23)
+	at sun.reflect.GeneratedMethodAccessor92.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at weblogic.webservice.component.javaclass.JavaClassInvocationHandler.invoke(JavaClassInvocationHandler.java:133)
+	at weblogic.webservice.core.handler.InvokeHandler.handleRequest(InvokeHandler.java:104)
+	at weblogic.webservice.core.HandlerChainImpl.handleRequest(HandlerChainImpl.java:143)
+	at weblogic.webservice.core.DefaultOperation.process(DefaultOperation.java:549)
+	at weblogic.webservice.server.Dispatcher.process(Dispatcher.java:204)
+	at weblogic.webservice.server.Dispatcher.doDispatch(Dispatcher.java:176)
+	at weblogic.webservice.server.Dispatcher.dispatch(Dispatcher.java:96)
+	at weblogic.webservice.server.WebServiceManager.dispatch(WebServiceManager.java:100)
+	at weblogic.webservice.server.servlet.WebServiceServlet.serverSideInvoke(WebServiceServlet.java:297)
+	at weblogic.webservice.server.servlet.ServletBase.doPost(ServletBase.java:485)
+	at weblogic.webservice.server.servlet.WebServiceServlet.doPost(WebServiceServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at weblogic.servlet.internal.ServletStubImpl$ServletInvocationAction.run(ServletStubImpl.java:1072)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:465)
+	at weblogic.servlet.internal.ServletStubImpl.invokeServlet(ServletStubImpl.java:348)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:6981)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:121)
+	at weblogic.servlet.internal.WebAppServletContext.invokeServlet(WebAppServletContext.java:3892)
+	at weblogic.servlet.internal.ServletRequestImpl.execute(ServletRequestImpl.java:2766)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:224)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:183)
+[2014dic08 16:54:13,057][INFO ][930181397153286425--760973ee.14981c4171b.1752][ProcesarSP ProcesarSp.java:50][Finally - Cerrando Conexiones]
+[2014dic08 16:54:13,061][INFO ][930181397153286425--760973ee.14981c4171b.1752][consultarCliente ConsultaListaNegra.java:91][No existe cliente registrado e la Lista Negra con el numero de identificacion consultado]
+[2014dic08 16:54:13,063][DEBUG][930181397153286425--760973ee.14981c4171b.1752][consultarCliente ConsultaListaNegra.java:118][Fin de la ejecucion del WSConsultaListaNegra]
